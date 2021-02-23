@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/char_output.dir/main.c.o  -o char_output 
