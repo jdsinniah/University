@@ -1,0 +1,13 @@
+Lo scambio che normalmente faremmo tramite la variabile di appoggio, tra due variabili, si può effettuare tramite l'operatore bitwise XOR.
+
+Proprietà di XOR: se X è un qualsiasi bit:
+	X ^ 1 = ~X	(cioè questa operazione inverte X)
+	X ^ 0 = X	(cioè questa operazione lascia X immutato)
+
+x = 00000110
+y = 10111010
+
+x = x ^ y = 10111100 (maschera per estrarre x ed y)
+
+y = y ^ x = 00000110
+x = x ^ y = 10111010
