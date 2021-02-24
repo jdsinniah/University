@@ -1,0 +1,3 @@
+/home/jdsinniah/University/P2_01_02_AC/Exercises/lsb_to_zero/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/jdsinniah/University/P2_01_02_AC/Exercises/lsb_to_zero/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/jdsinniah/University/P2_01_02_AC/Exercises/lsb_to_zero/cmake-build-debug/CMakeFiles/lsb_to_zero.dir

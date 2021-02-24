@@ -1,0 +1,1 @@
+Deciso il numero n di bit meno significativi da azzerare, bisogna trasformare in valore ottale o esadecimale n bit di 1, dopodichè fare il NOT del valore ottenuto e metterlo in AND con qualsiasi tipo di variabile che si vuole considerare.
