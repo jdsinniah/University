@@ -1,0 +1,1 @@
+Shift verso destra (<<) significa che stai moltiplicando per 2 il valore decimale, lo shift verso sinistra (>>), invece, indica una divisione per 2 del valore deciamle.
