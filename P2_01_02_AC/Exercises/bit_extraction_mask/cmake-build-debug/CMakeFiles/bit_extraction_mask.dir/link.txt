@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/bit_extraction_mask.dir/main.c.o  -o bit_extraction_mask 
