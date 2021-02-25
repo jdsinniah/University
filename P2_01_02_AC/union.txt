@@ -1,0 +1,1 @@
+La keyword union si usa per creare un tipo di dato custom. Contiene una collezione di variabili di tipi diverse, che condividono la stessa locazione e spazio di memoria. Si possono definire union con quanti membri si vuole, ma solo un membro alla volta può contenere un valore in un instante di tempo.
