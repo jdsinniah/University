@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/bool_and_bitwise.dir/main.cpp.o  -o bool_and_bitwise 

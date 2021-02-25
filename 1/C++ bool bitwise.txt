@@ -1,0 +1,4 @@
+In C abbiamo il tipo bool che può assumere true o false e corrispondono (come in C) a 1 ed 0.
+boolalpha viene utilizzato per formattare un qualsiasi tipo di dato nel formato true o false.
+
+Il miglior modo per gestire bit in C++ è usare la classe template bitset<N> dove N viene determinato in fase di compilazione, N rappresenta il numero di bit con il quale stiamo lavorando. La classe bitset ottimizza pure l'allocazione della memoria dedicando a ogni elemento di array (emulato) un singolo bit.
