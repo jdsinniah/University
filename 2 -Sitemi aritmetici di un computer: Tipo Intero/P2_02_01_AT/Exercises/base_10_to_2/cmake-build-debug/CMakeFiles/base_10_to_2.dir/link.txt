@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/base_10_to_2.dir/main.c.o  -o base_10_to_2 

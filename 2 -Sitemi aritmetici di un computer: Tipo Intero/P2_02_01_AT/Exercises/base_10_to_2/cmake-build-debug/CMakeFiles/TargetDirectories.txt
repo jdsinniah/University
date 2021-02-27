@@ -1,0 +1,3 @@
+/home/jdsinniah/University/2 -Sitemi aritmetici di un computer: Tipo Intero/P2_02_01_AT/Exercises/base_10_to_2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/jdsinniah/University/2 -Sitemi aritmetici di un computer: Tipo Intero/P2_02_01_AT/Exercises/base_10_to_2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/jdsinniah/University/2 -Sitemi aritmetici di un computer: Tipo Intero/P2_02_01_AT/Exercises/base_10_to_2/cmake-build-debug/CMakeFiles/base_10_to_2.dir
