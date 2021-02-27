@@ -35,7 +35,7 @@ void bitwise_base_10_to_2_converter(unsigned int value, int bits[], unsigned int
     int bits_index = bits_N-1;
     do {
         if(value >= 0) {
-            remainder = value - ((value >> 1) * 2);
+            remainder = value & 1;
             value >>= 1;
             bits[bits_index] = remainder;
         } else {
