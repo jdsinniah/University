@@ -1,0 +1,7 @@
+La rappresentazione di un numero k appartenente ad N in n bit si effettua facendo: ((2^n) + k) mod 2^n.
+
+Per calcolarlo tramite operatori bitwise bisogna:
+- fare il complemento del valore
+- si addiziona 1
+
+
