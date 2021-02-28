@@ -1,0 +1,2 @@
+La rappresentazione di un numero binario b in n bit nell'aritmetica binaria modulo 2^n si effettua facendo b mod 2^n.
+Così facendo riusciamo a gestiamo gli overflow permettendoci di osservare in una circonferenza l'insieme di valori rappresentabili dei numeri interi.

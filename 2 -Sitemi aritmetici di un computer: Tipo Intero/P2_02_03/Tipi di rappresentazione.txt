@@ -1,0 +1,16 @@
+Rappresentazione per segno e modulo
+usata per il campo mantissa di un numero reale floating-point
+Si sfrutta il bit più significativo per rappresentare il segno avendo cosi un sistema simmetrico di numeri a meno del segno.
+Questo comporta anche la presenza di 2 zeri: positivo e negativo.
+Il range di numeri rappresentabili vanno da -(2^n-1)-1 a (2^n-1)-1.
+Non adeguato per la rappresentazione tramite aritmetica modulo 2^n.
+
+Rappresentazione per complemento a 2
+Usato per memorizzare i numeri interi con segno.
+Lo zero è associato alla sequenza di n zeri.
+Si rappresenta in una circonferenza i gruppi di n bit rappresentabili e partendo dallo 0 si determinano i valori che vanno in senso antiorario i numeri positivi fino ad arrivare al (2^n-1)-1 e nel verso antiorario rappresentiamo i valori negativi (partendo da 0) fino ad arrivare al -2^n-1.
+
+Rappresentazione biased
+Usato per il campo esponente di un numero reale floating-point.
+Il gruppo di bit di 0 rappresenta il numero più piccolo che sarebbe -(2^n-1)-1.
+Il gruppo di bit di 1 rappresenta il numero più grande che sarebbe 2^n-1.

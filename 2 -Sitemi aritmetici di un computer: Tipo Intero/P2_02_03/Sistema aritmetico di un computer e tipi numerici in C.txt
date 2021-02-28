@@ -1,0 +1,6 @@
+La finitezza della memoria impone che gli insiemi numerici rappresentabili nei computer siano finit e discreti.
+
+Rappresentazione in memoria degli interi
+Si basa sulla rappresentazione binaria posizionale, ha un numero limitato di bit con il quale può essere rappresentato. Il numero di bit rappresentabili di un interno con n bit è 2^n.
+Esiste un minimio ed un massimo valore oltre i quali si verifica un overflow di intero.
+
