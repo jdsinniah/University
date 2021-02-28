@@ -1,0 +1,31 @@
+Addizione Binaria
+Tabella addizione binaria		Bitwise
++ 0 1					XOR(op1, op2)
+0 0 1
+1 1 0
+
+Tabella riporto addizione binaria	Bitwise
+r 0 1					AND(op1, op2)
+0 0 0
+1 0 1
+
+Algoritmo addizione binaria
+
+rip:=1
+while rip > 0
+	sum:=bitXOR(op1, op2);
+	rip:=bitAND(op1, op2);
+	rip:=leftSHIFT(rip, 1);
+	op1:=sum; op2:=rip;
+endwhile
+
+Sottrazione Binaria
+Tabella sottrazione binaria		Bitwise
+- 0 1					XOR(op1, op2)
+0 0 1
+1 1 0
+
+Tabella prestito sottrazione binaria	Bitwise
+p 0 1					NOT(OR(op1, NOT(op2)))
+0 0 1					AND(NOT(op1), op2)
+1 0 0

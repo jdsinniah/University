@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jdsinniah/University/C/custom/libraries/bits/library.c
+library.h
+/home/jdsinniah/University/C/custom/libraries/bits/library.h
+stdio.h
+-
+
+/home/jdsinniah/University/C/custom/libraries/bits/library.h
+stddef.h
+-
+

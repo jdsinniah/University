@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/jdsinniah/University/P2_01_02_AC/Exercises/lsb_to_zero/main.c" "/home/jdsinniah/University/P2_01_02_AC/Exercises/lsb_to_zero/cmake-build-debug/CMakeFiles/lsb_to_zero.dir/main.c.o"
+  "/home/jdsinniah/University/1 - Operatori bitwise/P2_01_02_AC/Exercises/lsb_to_zero/main.c" "/home/jdsinniah/University/1 - Operatori bitwise/P2_01_02_AC/Exercises/lsb_to_zero/cmake-build-debug/CMakeFiles/lsb_to_zero.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/jdsinniah/University/P2_01_02_AC/Exercises/char_output/cmake-build-debug"/>
+				<Option working_dir="/home/jdsinniah/University/1 - Operatori bitwise/P2_01_02_AC/Exercises/char_output/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/jdsinniah/University/P2_01_02_AC/Exercises/char_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jdsinniah/University/P2_01_02_AC/Exercises/char_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/jdsinniah/University/P2_01_02_AC/Exercises/char_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jdsinniah/University/P2_01_02_AC/Exercises/char_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jdsinniah/University/1\ -\ Operatori\ bitwise/P2_01_02_AC/Exercises/char_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jdsinniah/University/1\ -\ Operatori\ bitwise/P2_01_02_AC/Exercises/char_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jdsinniah/University/1\ -\ Operatori\ bitwise/P2_01_02_AC/Exercises/char_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jdsinniah/University/1\ -\ Operatori\ bitwise/P2_01_02_AC/Exercises/char_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/jdsinniah/University/P2_01_02_AC/Exercises/char_output/cmake-build-debug"/>
+				<Option working_dir="/home/jdsinniah/University/1 - Operatori bitwise/P2_01_02_AC/Exercises/char_output/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/jdsinniah/University/P2_01_02_AC/Exercises/char_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jdsinniah/University/P2_01_02_AC/Exercises/char_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/jdsinniah/University/P2_01_02_AC/Exercises/char_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jdsinniah/University/P2_01_02_AC/Exercises/char_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jdsinniah/University/1\ -\ Operatori\ bitwise/P2_01_02_AC/Exercises/char_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jdsinniah/University/1\ -\ Operatori\ bitwise/P2_01_02_AC/Exercises/char_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jdsinniah/University/1\ -\ Operatori\ bitwise/P2_01_02_AC/Exercises/char_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jdsinniah/University/1\ -\ Operatori\ bitwise/P2_01_02_AC/Exercises/char_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/jdsinniah/University/P2_01_02_AC/Exercises/char_output/cmake-build-debug"/>
+				<Option working_dir="/home/jdsinniah/University/1 - Operatori bitwise/P2_01_02_AC/Exercises/char_output/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/jdsinniah/University/P2_01_02_AC/Exercises/char_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jdsinniah/University/P2_01_02_AC/Exercises/char_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/jdsinniah/University/P2_01_02_AC/Exercises/char_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jdsinniah/University/P2_01_02_AC/Exercises/char_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jdsinniah/University/1\ -\ Operatori\ bitwise/P2_01_02_AC/Exercises/char_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jdsinniah/University/1\ -\ Operatori\ bitwise/P2_01_02_AC/Exercises/char_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jdsinniah/University/1\ -\ Operatori\ bitwise/P2_01_02_AC/Exercises/char_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jdsinniah/University/1\ -\ Operatori\ bitwise/P2_01_02_AC/Exercises/char_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="char_output">
-				<Option output="/home/jdsinniah/University/P2_01_02_AC/Exercises/char_output/cmake-build-debug/char_output" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/jdsinniah/University/P2_01_02_AC/Exercises/char_output/cmake-build-debug"/>
+				<Option output="/home/jdsinniah/University/1 - Operatori bitwise/P2_01_02_AC/Exercises/char_output/cmake-build-debug/char_output" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jdsinniah/University/1 - Operatori bitwise/P2_01_02_AC/Exercises/char_output/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -50,15 +50,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/jdsinniah/University/P2_01_02_AC/Exercises/char_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 char_output"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jdsinniah/University/P2_01_02_AC/Exercises/char_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/jdsinniah/University/P2_01_02_AC/Exercises/char_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jdsinniah/University/P2_01_02_AC/Exercises/char_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jdsinniah/University/1\ -\ Operatori\ bitwise/P2_01_02_AC/Exercises/char_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 char_output"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jdsinniah/University/1\ -\ Operatori\ bitwise/P2_01_02_AC/Exercises/char_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jdsinniah/University/1\ -\ Operatori\ bitwise/P2_01_02_AC/Exercises/char_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jdsinniah/University/1\ -\ Operatori\ bitwise/P2_01_02_AC/Exercises/char_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="char_output/fast">
-				<Option output="/home/jdsinniah/University/P2_01_02_AC/Exercises/char_output/cmake-build-debug/char_output" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/jdsinniah/University/P2_01_02_AC/Exercises/char_output/cmake-build-debug"/>
+				<Option output="/home/jdsinniah/University/1 - Operatori bitwise/P2_01_02_AC/Exercises/char_output/cmake-build-debug/char_output" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jdsinniah/University/1 - Operatori bitwise/P2_01_02_AC/Exercises/char_output/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -69,17 +69,17 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/jdsinniah/University/P2_01_02_AC/Exercises/char_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 char_output/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jdsinniah/University/P2_01_02_AC/Exercises/char_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/jdsinniah/University/P2_01_02_AC/Exercises/char_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jdsinniah/University/P2_01_02_AC/Exercises/char_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jdsinniah/University/1\ -\ Operatori\ bitwise/P2_01_02_AC/Exercises/char_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 char_output/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jdsinniah/University/1\ -\ Operatori\ bitwise/P2_01_02_AC/Exercises/char_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jdsinniah/University/1\ -\ Operatori\ bitwise/P2_01_02_AC/Exercises/char_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jdsinniah/University/1\ -\ Operatori\ bitwise/P2_01_02_AC/Exercises/char_output/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/jdsinniah/University/P2_01_02_AC/Exercises/char_output/main.c">
+		<Unit filename="/home/jdsinniah/University/1 - Operatori bitwise/P2_01_02_AC/Exercises/char_output/main.c">
 			<Option target="char_output"/>
 		</Unit>
-		<Unit filename="/home/jdsinniah/University/P2_01_02_AC/Exercises/char_output/CMakeLists.txt">
+		<Unit filename="/home/jdsinniah/University/1 - Operatori bitwise/P2_01_02_AC/Exercises/char_output/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

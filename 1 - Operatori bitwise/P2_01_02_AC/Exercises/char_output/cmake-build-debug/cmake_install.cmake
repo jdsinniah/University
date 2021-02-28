@@ -1,4 +1,4 @@
-# Install script for directory: /home/jdsinniah/University/P2_01_02_AC/Exercises/char_output
+# Install script for directory: /home/jdsinniah/University/1 - Operatori bitwise/P2_01_02_AC/Exercises/char_output
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/jdsinniah/University/P2_01_02_AC/Exercises/char_output/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/jdsinniah/University/1 - Operatori bitwise/P2_01_02_AC/Exercises/char_output/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

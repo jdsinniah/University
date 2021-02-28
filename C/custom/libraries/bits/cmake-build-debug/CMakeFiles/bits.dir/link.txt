@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -g  -shared -Wl,-soname,libbits.so -o libbits.so CMakeFiles/bits.dir/library.c.o 
