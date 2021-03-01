@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/real_numbers.dir/main.c.o  -o real_numbers 

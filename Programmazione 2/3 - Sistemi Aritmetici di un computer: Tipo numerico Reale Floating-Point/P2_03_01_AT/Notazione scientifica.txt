@@ -5,4 +5,5 @@ Un numero reale x si rappresenta con:
 	- esponente p: indicante gli zeri significativi
 tali che x = m*β^p ove β è la base del sistema di numerazione.
 
-
+Nella rappresentazione binaria di un valore tramite notazione scientifica la prima cifra della mantissia può essere solo e sempre 1.
+Allora può non essere memorizzata.
