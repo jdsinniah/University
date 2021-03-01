@@ -1,0 +1,8 @@
+Notazione compatta per rappresentare i numeri reali in cui si rappresentano solo le cifre significative.
+
+Un numero reale x si rappresenta con:
+	- mantissa m: contenente le cifre significative
+	- esponente p: indicante gli zeri significativi
+tali che x = m*β^p ove β è la base del sistema di numerazione.
+
+
