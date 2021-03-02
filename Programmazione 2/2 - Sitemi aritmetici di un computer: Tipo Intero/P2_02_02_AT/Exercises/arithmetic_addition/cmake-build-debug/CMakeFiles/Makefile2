@@ -64,10 +64,10 @@ RM = /home/jdsinniah/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/203.7148.70/
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/jdsinniah/University/2 -Sitemi aritmetici di un computer: Tipo Intero/P2_02_02_AT/Exercises/arithmetic_addition"
+CMAKE_SOURCE_DIR = "/home/jdsinniah/University/Programmazione 2/2 - Sitemi aritmetici di un computer: Tipo Intero/P2_02_02_AT/Exercises/arithmetic_addition"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/jdsinniah/University/2 -Sitemi aritmetici di un computer: Tipo Intero/P2_02_02_AT/Exercises/arithmetic_addition/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/jdsinniah/University/Programmazione 2/2 - Sitemi aritmetici di un computer: Tipo Intero/P2_02_02_AT/Exercises/arithmetic_addition/cmake-build-debug"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -94,14 +94,14 @@ clean: CMakeFiles/arithmetic_addition.dir/clean
 CMakeFiles/arithmetic_addition.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/arithmetic_addition.dir/build.make CMakeFiles/arithmetic_addition.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/arithmetic_addition.dir/build.make CMakeFiles/arithmetic_addition.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/jdsinniah/University/2 -Sitemi aritmetici di un computer: Tipo Intero/P2_02_02_AT/Exercises/arithmetic_addition/cmake-build-debug/CMakeFiles" --progress-num=1,2 "Built target arithmetic_addition"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/jdsinniah/University/Programmazione 2/2 - Sitemi aritmetici di un computer: Tipo Intero/P2_02_02_AT/Exercises/arithmetic_addition/cmake-build-debug/CMakeFiles" --progress-num=1,2 "Built target arithmetic_addition"
 .PHONY : CMakeFiles/arithmetic_addition.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/arithmetic_addition.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jdsinniah/University/2 -Sitemi aritmetici di un computer: Tipo Intero/P2_02_02_AT/Exercises/arithmetic_addition/cmake-build-debug/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jdsinniah/University/Programmazione 2/2 - Sitemi aritmetici di un computer: Tipo Intero/P2_02_02_AT/Exercises/arithmetic_addition/cmake-build-debug/CMakeFiles" 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/arithmetic_addition.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jdsinniah/University/2 -Sitemi aritmetici di un computer: Tipo Intero/P2_02_02_AT/Exercises/arithmetic_addition/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jdsinniah/University/Programmazione 2/2 - Sitemi aritmetici di un computer: Tipo Intero/P2_02_02_AT/Exercises/arithmetic_addition/cmake-build-debug/CMakeFiles" 0
 .PHONY : CMakeFiles/arithmetic_addition.dir/rule
 
 # Convenience name for target.

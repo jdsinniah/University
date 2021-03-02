@@ -1,4 +1,4 @@
-# Install script for directory: /home/jdsinniah/University/2 -Sitemi aritmetici di un computer: Tipo Intero/P2_02_02_AT/Exercises/arithmetic_addition
+# Install script for directory: /home/jdsinniah/University/Programmazione 2/2 - Sitemi aritmetici di un computer: Tipo Intero/P2_02_02_AT/Exercises/arithmetic_addition
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/jdsinniah/University/2 -Sitemi aritmetici di un computer: Tipo Intero/P2_02_02_AT/Exercises/arithmetic_addition/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/jdsinniah/University/Programmazione 2/2 - Sitemi aritmetici di un computer: Tipo Intero/P2_02_02_AT/Exercises/arithmetic_addition/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
