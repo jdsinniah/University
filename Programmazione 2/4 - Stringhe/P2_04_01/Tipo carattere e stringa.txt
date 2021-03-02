@@ -1,0 +1,5 @@
+In C bisogna'a' ed "a" sono diversi:
+
+'a': costante carattere = un intero (1 byte) contenente il codice ASCII del valore corrispondente al carattere
+
+"a": costante stringa = sequenza di (zero o più) caratteri memorizzata come array di caratteri in cui l'ultima componente contiene il carattere null ('\0'=0) per indicare la fine della stringa.
