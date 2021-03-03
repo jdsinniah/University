@@ -3,3 +3,6 @@ In C bisogna'a' ed "a" sono diversi:
 'a': costante carattere = un intero (1 byte) contenente il codice ASCII del valore corrispondente al carattere
 
 "a": costante stringa = sequenza di (zero o più) caratteri memorizzata come array di caratteri in cui l'ultima componente contiene il carattere null ('\0'=0) per indicare la fine della stringa.
+
+Rappresentare una stringa tramite un array è oneroso in termini di tempo e spazio e specialmente spazio: in quanto anche gli spazi vuoti che non servono e non sono stati utilizzati dall'utente sono allocati in memoria.
+Al contario, invece, un puntatore a char occupa solo lo spazio necessario.
