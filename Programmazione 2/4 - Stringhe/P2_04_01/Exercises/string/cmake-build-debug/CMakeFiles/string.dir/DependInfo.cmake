@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/home/jdsinniah/University/Programmazione 2/4 - Stringhe/P2_04_01/Exercises/string/fun.c" "/home/jdsinniah/University/Programmazione 2/4 - Stringhe/P2_04_01/Exercises/string/cmake-build-debug/CMakeFiles/string.dir/fun.c.o"
+  "/home/jdsinniah/University/Programmazione 2/4 - Stringhe/P2_04_01/Exercises/string/fun_mesi.c" "/home/jdsinniah/University/Programmazione 2/4 - Stringhe/P2_04_01/Exercises/string/cmake-build-debug/CMakeFiles/string.dir/fun_mesi.c.o"
   "/home/jdsinniah/University/Programmazione 2/4 - Stringhe/P2_04_01/Exercises/string/main.c" "/home/jdsinniah/University/Programmazione 2/4 - Stringhe/P2_04_01/Exercises/string/cmake-build-debug/CMakeFiles/string.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

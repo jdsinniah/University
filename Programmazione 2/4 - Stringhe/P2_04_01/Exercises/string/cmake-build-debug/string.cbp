@@ -76,6 +76,15 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/jdsinniah/University/Programmazione 2/4 - Stringhe/P2_04_01/Exercises/string/fun.c">
+			<Option target="string"/>
+		</Unit>
+		<Unit filename="/home/jdsinniah/University/Programmazione 2/4 - Stringhe/P2_04_01/Exercises/string/fun.h">
+			<Option target="string"/>
+		</Unit>
+		<Unit filename="/home/jdsinniah/University/Programmazione 2/4 - Stringhe/P2_04_01/Exercises/string/fun_mesi.c">
+			<Option target="string"/>
+		</Unit>
 		<Unit filename="/home/jdsinniah/University/Programmazione 2/4 - Stringhe/P2_04_01/Exercises/string/main.c">
 			<Option target="string"/>
 		</Unit>

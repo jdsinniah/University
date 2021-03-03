@@ -143,6 +143,60 @@ string/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string.dir/build.make CMakeFiles/string.dir/build
 .PHONY : string/fast
 
+fun.o: fun.c.o
+
+.PHONY : fun.o
+
+# target to build an object file
+fun.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/string.dir/build.make CMakeFiles/string.dir/fun.c.o
+.PHONY : fun.c.o
+
+fun.i: fun.c.i
+
+.PHONY : fun.i
+
+# target to preprocess a source file
+fun.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/string.dir/build.make CMakeFiles/string.dir/fun.c.i
+.PHONY : fun.c.i
+
+fun.s: fun.c.s
+
+.PHONY : fun.s
+
+# target to generate assembly for a file
+fun.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/string.dir/build.make CMakeFiles/string.dir/fun.c.s
+.PHONY : fun.c.s
+
+fun_mesi.o: fun_mesi.c.o
+
+.PHONY : fun_mesi.o
+
+# target to build an object file
+fun_mesi.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/string.dir/build.make CMakeFiles/string.dir/fun_mesi.c.o
+.PHONY : fun_mesi.c.o
+
+fun_mesi.i: fun_mesi.c.i
+
+.PHONY : fun_mesi.i
+
+# target to preprocess a source file
+fun_mesi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/string.dir/build.make CMakeFiles/string.dir/fun_mesi.c.i
+.PHONY : fun_mesi.c.i
+
+fun_mesi.s: fun_mesi.c.s
+
+.PHONY : fun_mesi.s
+
+# target to generate assembly for a file
+fun_mesi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/string.dir/build.make CMakeFiles/string.dir/fun_mesi.c.s
+.PHONY : fun_mesi.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -179,6 +233,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... string"
+	@echo "... fun.o"
+	@echo "... fun.i"
+	@echo "... fun.s"
+	@echo "... fun_mesi.o"
+	@echo "... fun_mesi.i"
+	@echo "... fun_mesi.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

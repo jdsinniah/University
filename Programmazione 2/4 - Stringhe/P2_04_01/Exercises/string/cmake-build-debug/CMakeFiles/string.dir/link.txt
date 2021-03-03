@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/string.dir/main.c.o  -o string 
+/usr/bin/cc -g   CMakeFiles/string.dir/main.c.o CMakeFiles/string.dir/fun.c.o CMakeFiles/string.dir/fun_mesi.c.o  -o string 

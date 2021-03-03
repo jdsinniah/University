@@ -1,52 +1,47 @@
 #include <stdio.h>
+#include "fun.h"
 
-char *mesi[] = {
-        "Numero di mese non corretto",
-        "Gennaio",
-        "Febbraio",
-        "Marzo",
-        "Aprile",
-        "Maggio",
-        "Giugno",
-        "Luglio",
-        "Agosto",
-        "Settembre",
-        "Ottobre",
-        "Novembre",
-        "Dicembre"
-};
+//char *mesi[] = {
+//        "Numero di mese non corretto",
+//        "Gennaio",
+//        "Febbraio",
+//        "Marzo",
+//        "Aprile",
+//        "Maggio",
+//        "Giugno",
+//        "Luglio",
+//        "Agosto",
+//        "Settembre",
+//        "Ottobre",
+//        "Novembre",
+//        "Dicembre"
+//};
 
 void nome_mese();
 
 int main() {
-    char a = 'a'; char A[] = "a";
-    printf("sizeof(constant char)   = %d\tvalue = %d\n", sizeof(a), a);
-    printf("sizeof(constant string) = %d\n", sizeof("a"));
-    printf("sizeof(string array)    = %d\tvalue = %d, %d\n", sizeof(A), A[0], A[1]);
-    puts("\n");
-    printf("\t constant string:\ncontenuto = %d, %d\tindirizzo = %u\n", *"a", *("a" + 1), "a");
-    puts("\n");
-    nome_mese();
+//    char a = 'a'; char A[] = "a";
+//    printf("sizeof(constant char)   = %d\tvalue = %d\n", sizeof(a), a);
+//    printf("sizeof(constant string) = %d\n", sizeof("a"));
+//    printf("sizeof(string array)    = %d\tvalue = %d, %d\n", sizeof(A), A[0], A[1]);
+//    puts("\n");
+//    printf("\t constant string:\ncontenuto = %d, %d\tindirizzo = %u\n", *"a", *("a" + 1), "a");
+//    puts("\n");
+//    nome_mese();
+
+    int n;
+    char *mesi_di_n;
+
+    printf("numero mese = "); scanf("%d", &n);
+    mesi_di_n = nome_mese_pointer(n);
+    printf("mese corrispondente = %s\n", mesi_di_n);
+
     return 0;
 }
 
 void nome_mese() {
     int n, riga, j; char mese_di_n[30];
-    char mesi[][30] = {
-            "Numero di mese non corretto",
-            "Gennaio",
-            "Febbraio",
-            "Marzo",
-            "Aprile",
-            "Maggio",
-            "Giugno",
-            "Luglio",
-            "Agosto",
-            "Settembre",
-            "Ottobre",
-            "Novembre",
-            "Dicembre"
-    };
+    extern char *mesi[];
     printf("numero mese = "); scanf("%d", &n);
     if(n < 1 || n > 12)
         riga = 0;
@@ -58,6 +53,7 @@ void nome_mese() {
 }
 
 void nome_mese_puntatori() {
+    extern char *mesi[];
     int n, riga, j; char *mese_di_n;
     printf("numero mese = "); scanf("%d", &n);
     if(n < 1 || n > 12)

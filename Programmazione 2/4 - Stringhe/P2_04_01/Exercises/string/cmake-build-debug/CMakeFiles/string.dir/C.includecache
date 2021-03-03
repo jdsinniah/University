@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
+/home/jdsinniah/University/Programmazione 2/4 - Stringhe/P2_04_01/Exercises/string/fun.h
+
 /home/jdsinniah/University/Programmazione 2/4 - Stringhe/P2_04_01/Exercises/string/main.c
 stdio.h
 -
+fun.h
+/home/jdsinniah/University/Programmazione 2/4 - Stringhe/P2_04_01/Exercises/string/fun.h
 

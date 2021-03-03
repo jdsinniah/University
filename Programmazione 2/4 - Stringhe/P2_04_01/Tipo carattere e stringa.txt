@@ -6,3 +6,5 @@ In C bisogna'a' ed "a" sono diversi:
 
 Rappresentare una stringa tramite un array è oneroso in termini di tempo e spazio e specialmente spazio: in quanto anche gli spazi vuoti che non servono e non sono stati utilizzati dall'utente sono allocati in memoria.
 Al contario, invece, un puntatore a char occupa solo lo spazio necessario.
+
+Le variabili indicate con extern sono variabili globali condivise da function memorizzate in file diversi di uno stesso progetto.

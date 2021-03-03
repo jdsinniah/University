@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/string.dir/fun.c.o"
+  "CMakeFiles/string.dir/fun_mesi.c.o"
   "CMakeFiles/string.dir/main.c.o"
   "string"
   "string.pdb"
