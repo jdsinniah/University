@@ -8,3 +8,15 @@ Rappresentare una stringa tramite un array è oneroso in termini di tempo e spaz
 Al contario, invece, un puntatore a char occupa solo lo spazio necessario.
 
 Le variabili indicate con extern sono variabili globali condivise da function memorizzate in file diversi di uno stesso progetto.
+
+fflush(stdin): good practice utilizzare questo prima di prendere qualsiasi input, in quanto ogni volta che prendiamo input qualche dato il buffer mantiene il dato, quindi per evitare di trovarci in situazioni con output sporchi ed ignoti utilizziamo fflush
+
+La differenza tra una string tramite array ed una di puntatori è che la seconda è più efficiente nell'utilizzo della memoria non avendo bisogno a priori la dimensione della stringa.
+
+gets(char* var) è una function utilizzata per leggere input di stringhe e salvarle nella variabile var. Mentre con un array di char si può usare direttamente la function, una variabile di char puntatore ha bisogno che si allochi a priori il suo spazio in memoria, facciamo questo utilizzando la function malloc(stringlen+1) castando l'output in (char *).
+
+gets è una function deprecata, poichè non si interessa della dimensione dell'array di char e quindi se l'input utente fosse, più lungo della dimensione persistibile nella variabile stringa, l'input viene salvato tutto e i char in eccesso vengono salvati nelle celle di memoria conosecutive allo spazio allocato per l'array di char, quindi, potenzialmente, sovrascrivendo altre variabili che utilizzavano quegli spazi dell'eccesso.
+
+Dunque, per questo la function conveniente diventa fgets(char*, int lunghezza_stringa, stdin), che limita l'input salvato alla dimensione definita input nella function.
+
+
