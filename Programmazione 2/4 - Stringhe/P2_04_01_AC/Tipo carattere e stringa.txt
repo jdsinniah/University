@@ -19,4 +19,6 @@ gets è una function deprecata, poichè non si interessa della dimensione dell'a
 
 Dunque, per questo la function conveniente diventa fgets(char*, int lunghezza_stringa, stdin), che limita l'input salvato alla dimensione definita input nella function.
 
+malloc(pointer, number_of_bytes_to_allocate): cast the value to the wanted pointer type.
+reallocate(pointer, number_of_bytes_to_allocate): does what malloc does on already allocated variables.
 
