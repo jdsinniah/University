@@ -1,0 +1,3 @@
+/home/jdsinniah/University/Programmazione 2/4 - Stringhe/P2_04_01/Exercises/input_stream/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/jdsinniah/University/Programmazione 2/4 - Stringhe/P2_04_01/Exercises/input_stream/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/jdsinniah/University/Programmazione 2/4 - Stringhe/P2_04_01/Exercises/input_stream/cmake-build-debug/CMakeFiles/input_stream.dir
