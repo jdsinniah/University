@@ -1,0 +1,13 @@
+allocazione statica della memoria = allocazione di memoria per i dati di un programma prima del runtime
+
+allocazione dinamica della memoria = possibilità di allocare/deallocare spazio di memoria a runtime
+
+allocazione dinamica
+
+malloc(): alloca spazio in memoria per un oggetto
+	
+calloc(): alloca spazio in memoria per un array di oggetti (gli elementi sono inizializzati con 0)
+realloc(): permette di modificare lo dimensione di uno spazio di memoria già allocato con malloc o calloc
+free(): libera blocchi di memoria allocati (delloca)
+
+
