@@ -56,7 +56,6 @@
       <change afterPath="$PROJECT_DIR$/../untitled/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../untitled/.idea/untitled.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../untitled/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../untitled/cmake-build-debug/CMakeCache.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../untitled/cmake-build-debug/CMakeFiles/3.17.5/CMakeCCompiler.cmake" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../untitled/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
@@ -86,6 +85,7 @@
       <change afterPath="$PROJECT_DIR$/../untitled/cmake-build-debug/untitled" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../untitled/cmake-build-debug/untitled.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Allocazione dinamica di memoria in C.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Allocazione dinamica di memoria in C.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
