@@ -1,0 +1,3 @@
+/home/jdsinniah/University/Programmazione 2/5 - Allocazione dinamica in C/P2_05_01_C/Exercises/untitled/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/jdsinniah/University/Programmazione 2/5 - Allocazione dinamica in C/P2_05_01_C/Exercises/untitled/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/jdsinniah/University/Programmazione 2/5 - Allocazione dinamica in C/P2_05_01_C/Exercises/untitled/cmake-build-debug/CMakeFiles/untitled.dir

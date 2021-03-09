@@ -4,10 +4,22 @@ allocazione dinamica della memoria = possibilità di allocare/deallocare spazio 
 
 allocazione dinamica
 
-malloc(): alloca spazio in memoria per un oggetto
-	
-calloc(): alloca spazio in memoria per un array di oggetti (gli elementi sono inizializzati con 0)
-realloc(): permette di modificare lo dimensione di uno spazio di memoria già allocato con malloc o calloc
-free(): libera blocchi di memoria allocati (delloca)
+void *malloc(size): alloca spazio in memoria per un oggetto
+	size: numero di bytes da allocare
+	return: void pointer = puntatore generico al blocco di memoria 	allocato, oppure NULL se la memoria disponibile è insufficiente.
+	per tipizzare lo spazio allocato basta castare.
+
+calloc(num, size): alloca spazio in memoria per un array di oggetti (gli elementi sono inizializzati con 0)
+	restituisce un void pointer ad un array di dimensione num con ciascun elemento dell'array di dimensione size o NULL se la memoria disponibile è insufficiente.
+	per tipizzare l'array allocato basta castare.
+	Le componenti dell'array sono inizializzate a 0.
+
+realloc(*p, size): permette di modificare lo dimensione di uno spazio di memoria già allocato con malloc o calloc
+	restituisce un void pointer ad un nuovo blocco di memoria ampiezza  size e contenente il blocco puntato da *p, oppure NULL se non c'è abbastanza spazio.
+	Usare il type cast sul valore restituito dalla funzione.	
+
+void *free(*p): libera il blocco di memoria puntato da p (delloca)
+
+array dinamico rispetto uno statico può raggiungere dimensioni molto maggiori.
 
 
