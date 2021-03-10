@@ -1,0 +1,22 @@
+Nell'esecuzione di un programma possiamo suddividere la memoria in sezioni nelle quali vengono allocati blocchi dedicati a specifici tipi di dati.
+
+Partendo dal basso (a salire) in cui abbiamo gli indirizzi più bassi troviamo:
+
+ - Text segment (o code segment):
+	è uno spazio allocato in cui risiede un programma in un object file o in memoria ed è uno spazio condivisibile per permettere ad più programmi di accedervi allo stesso tempo. è readonly per evitare che le istruzioni vengano modificate accidentalmente e si trova in fondo a tutto lontano dall'heap/stack per evitare che un overflow possa sporcarlo.
+
+ - Initialized data segment (o data segment):
+	è dove risiedono le variabili globali, static, extern e const inizializzate
+	tutti i tipi dato in quest'area può essere modificata eccetto per la const, possiamo quindi riconoscere anche due sotto sezioni:
+	initialized read-write e initialized read-only
+
+ - Unitialized data segment (o bss segment):
+	 risedono le variabili, globali, static, extern e const che sono inizializzate a 0 o non hanno un esplicita inizializzazione.
+
+ - Heap:
+	è dove avviene l'allocazione della memoria dinamica usando le funzioni di allocazione
+
+ - Stack:
+	risiedono tutte le variabili locali
+	usato per passare gli argomenti alle funzioni
+	mantenere l'indirizzo di ritorno della istruzione da eseguire dopo che la funzione è finita
