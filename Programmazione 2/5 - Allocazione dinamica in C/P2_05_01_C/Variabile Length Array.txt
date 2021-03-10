@@ -1,0 +1,5 @@
+A partire dall'ISO C99 sono stati introdotti gli array a lunghezza variabile.
+
+Il size non è noto in compilazione ma a runtime.
+
+Il compilatore GNU gcc alloca queste variabili nella memoria stack.
