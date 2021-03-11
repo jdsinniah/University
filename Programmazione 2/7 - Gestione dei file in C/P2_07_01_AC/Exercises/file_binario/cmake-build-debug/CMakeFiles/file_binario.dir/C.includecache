@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jdsinniah/University/Programmazione 2/7 - Gestione dei file in C/P2_07_01_AC/Exercises/file_binario/main.c
+stdio.h
+-
+stdio.h
+-
+stdlib.h
+-
+

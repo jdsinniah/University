@@ -1,0 +1,20 @@
+In C riconosciamo due tipi di file: binario e testo
+Testo è il tipo di file definito per default, bianrio va specificato col flag "b".
+Un file di test è un insieme di caratteri: ogni riga contiene 0 o più caratteri (al massimo 255) e termina con un carattere speciale (es: \n).
+
+Prima di essere manipolato un file va aperto specificando il modo in cui verrà usato:
+
+fp = fopen(nome_file, modo) ->
+	nome_file: tipo stringa, si specifica il path di un file
+	modo: tipo stringa, si specificano i flag che determinano il mode in cui viene aperto il file (se in lettura, scrittura, ecc.)
+	return: tipo FILE (un puntatore) puntatore ad una struttura contente le informazioni sul file.
+
+dopo aver fatto il necessario con i file il file va chiuso usando:
+
+fclose(fp)
+
+type_i fread(void *buffer, type_i size, type_o count, FILE *fp):
+trasferisce count volte size blocchi di byte da fp a buffer
+
+type_i fwrite(void *buffer, type_i size, type_o count, FILE *fp)
+trasferisce count volte size blocchi di byte da buffer a fp

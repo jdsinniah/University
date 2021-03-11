@@ -1,0 +1,3 @@
+/home/jdsinniah/University/Programmazione 2/7 - Gestione dei file in C/P2_07_01_AC/Exercises/file_binario/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/jdsinniah/University/Programmazione 2/7 - Gestione dei file in C/P2_07_01_AC/Exercises/file_binario/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/jdsinniah/University/Programmazione 2/7 - Gestione dei file in C/P2_07_01_AC/Exercises/file_binario/cmake-build-debug/CMakeFiles/file_binario.dir
