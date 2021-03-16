@@ -33,5 +33,18 @@ Function overloading: (compile time polymorphism) permette di avere più funzion
 
 Function overriding: (run-time polymorphism) permette di modificare in una classe derivata i metodi della classe base.
 
-pure virtual function: sono funzioni senza definizione, le classi che contengono funzioni di questo tipo sono chiamate classi astratte. Quando si definisce una funzione astratta, questa va preceduta dalla keyword "virtual"
+pure virtual function: sono funzioni senza definizione, le classi che contengono funzioni di questo tipo sono chiamate classi astratte. Quando si definisce una funzione astratta, questa va preceduta dalla keyword "virtual".
+
+Si possono creare classi e funzioni generiche per eseguire delle stesse istruzioni su vari tipi di dato. Questo fornisce un metodo di polimorfismo parametrico.
+come classe generica possiamo prendere per esempio la classe vector<type>.
+Queste classi e funzioni generiche vengono chiamate template e si definiscono cosi:
+funzioni: template <typename X> tipo_ritorno function_name(X a) { function definition... }
+classi: template <typename Z> class class_name {...}
+
+I namespace li usiamo per evitare collisioni tra identificatori possiamo specificare l'uso di un namespace tramite la keyword using o anche con la stessa keyword specificare un membro di un namespace. 
+
+"::" viene chiamato scope resolution operator si usa per specificare da dove deriva una funzione
+
+In C++ si può fare l'overload di un operatore in una classe, questo permette di ridefinire il significato di un operatore in base alla classe.
+L'overload di un operatore si fa: return_type operator{operator (per esempio #)}(arg_list)
 
