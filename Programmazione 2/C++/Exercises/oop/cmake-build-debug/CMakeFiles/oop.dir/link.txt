@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/oop.dir/main.cpp.o CMakeFiles/oop.dir/Studente.cpp.o  -o oop 

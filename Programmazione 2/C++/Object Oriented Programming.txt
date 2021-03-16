@@ -1,0 +1,37 @@
+Un oggetto è un istanza di una classe.
+La classe descrive le caratteristiche di un oggetto.
+
+Un oggetto ha uno stato (descritto dalle sue proprietà con i campi di una classe) e comportamenti (descritti dai metodi di una classe).
+
+La programmazione ad oggetti descrive l'interazione tra gli oggetti.
+
+Le variabili che descrivono lo stato di un oggetto normalmente sono locali e non visibili da altri oggetti. (Data hiding)
+
+Il comportamento è descritto da funzioni che agiscono sulle variabili di stato e si interfacciano all'esterno e quindi normalmente visibile ad altri oggetti. (Encapsulation)
+
+La classe è come uno stampo in cui sono descritti come dovrà essere l'istanza del suo oggetto.
+Una classe ha un proprio nome e contiene due tipi di membri: campi e metodi.
+
+Nella definizione della classe e dei suoi campi e metodi, possiamo specificare i loro modificatori di accesso per definire il livello di interazione possibile da altri oggetti con un istanza della classe che si sta definendo.
+
+
+In C++ quando definiamo una classe creaiamo due file, una {ClassName}.h e l'altra {ClassName}.cpp.
+Nel file con estensione ".h" definiamo la struttura della classe, quindi i campi ed i metodi senza definizione.
+Nel file con estensione ".cpp" definiamo i metodi facendo l'#include del file .h associato.
+
+Il costruttore è un metodo che ha lo stesso nome della classe e viene sempre invocato quando la classe viene istanziata. Si può usare per definire delle logiche di inizializzazione di un oggetto, come per esempio l'inizializzazione dei campi dell'oggetto.
+
+Il distruttore che ha lo stesso nome della classe come il costruttore, eccetto preceduto da una tilde, viene invocato dal compilatore quando l'istanza sarà deallocato
+
+Ereditarietà: una classe può essere derivata da un'altra classe già esistente, assorbendo tutte le sue proprietà e metodi dei quali può accedere a seconda del modificatore di accesso indicato durante.
+Un puntatore di tipo classe base può puntare ad una istanza di tipo classe ereditato ma non vale il contrario. Mentre il puntatore punta ad una classe derivata non può accedere ai metodi esclusivi della classe derivata ne alle sue proprietà, può accedere solo ai membri della classe base.
+Per far si che il puntatore che punta ad una classe derivata possa utilizzare anche i membri della classe derivata bisognerà castare il puntatore alla classe derivata.
+
+Virtual functions: sono funzioni membro dichiarate in una classe base e ridefinite nelle classi derivate permettendo cosi di realizzare il principio del polimorfismo. Dunque si applica la filosfia del "una sola interfaccia, più metodi".
+
+Function overloading: (compile time polymorphism) permette di avere più funzioni con lo stesso nome nella stessa classe, però con diversi tipi e/o numero di parametri, quindi con diverse firme.
+
+Function overriding: (run-time polymorphism) permette di modificare in una classe derivata i metodi della classe base.
+
+pure virtual function: sono funzioni senza definizione, le classi che contengono funzioni di questo tipo sono chiamate classi astratte. Quando si definisce una funzione astratta, questa va preceduta dalla keyword "virtual"
+
