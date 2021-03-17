@@ -1,0 +1,5 @@
+Lista lineare (o linked list) può essere aperta o chiusa e l'inserimento e l'eliminazione può avvenire in una qualunque posizione.
+
+Ciascun componente (o nodo) della lista è caratterizzato dal dato che deve mantenere + un puntatore (o link) che punta al nodo che lo segue.
+
+
