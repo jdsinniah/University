@@ -1,0 +1,23 @@
+dato strutturato -> insieme di informazioni logicamente collegati ed identificati con un unico nome
+
+un dato strutturato stabilisce delle regole di strutturali (dimensione -> statico o dinamico), delle regole di sicurezza e manipolazione delle componenti.
+
+tipi di dato primitivi: sono tipi di dato messi a disposizione dal linguaggio di programmazione non derivanti da altri dati. Le regole di manipolazione sono definiti nel linguaggio di programmazione.
+
+tipo di dato derivati: sono tipi di dato creati sfruttando dati primitivi ed altri tipi di dato derivanti.
+Le regole di manipolazione del dato vanno definiti.
+
+
+array: 
+	- tipo di dato primitivo
+	- dimensione fissa (tipo di dato statico)
+	- le componenti sono dello stesso tipo
+	- l'accesso alle componenti è diretto tramite gli indici
+
+record:
+	- tipo di dato statico
+	- i campi (componenti) possono essere di tipo diverso
+	- l'accesso alle componenti è diretto tramite il nome
+
+
+
