@@ -1,0 +1,5 @@
+La pila (o Stack) è una struttura lineare aperta in cui l'inserimento e l'eliminazione avviene solo ad un estremo della struttura (testa della pila).
+
+Struttura LIFO: l'ultimo ad essere inserito è il primo ad essere eliminato.
+
+interfacce: push() e pop()

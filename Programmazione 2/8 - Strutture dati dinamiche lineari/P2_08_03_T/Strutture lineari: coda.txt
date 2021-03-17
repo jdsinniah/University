@@ -1,0 +1,6 @@
+La coda (queue) è una struttura lineare aperta in cui l'elminazione avviene solo all'inizio della struttura (testa, primo elemento inserito)
+e l'inserimento avviene solo alla fine (ultimo elemento della coda)
+
+Struttura FIFO: primo elemento inserito è il primo ad essere eliminato.
+
+interfacce: enqueu() e dequeue()
