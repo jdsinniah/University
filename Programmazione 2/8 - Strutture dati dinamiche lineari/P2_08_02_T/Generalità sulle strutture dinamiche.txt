@@ -1,0 +1,9 @@
+Strutture dati dinamiche: non ha un numero fisso di componenti
+
+Le strutture dati dinamiche sono classificate in base al tipo di collegamento logico esistente tra le componenti:
+	- lineare:
+		eccetto per il primo ed ultimo componente, i componenti delle strutture lineari sono caratterizzate dall'avere sempre e solo un componente predecessore ed un componente successore.
+		ciascun componente ha la proprietà che punta al successivo questo puntamento si chiama link e permette un ordinamento logico svincolandole dalla posizione relativa di memorizzazione.
+		tra le varie strutture lineari abbiamo: le liste, la coda e la pila
+	- gerarchica
+	- reticolare
