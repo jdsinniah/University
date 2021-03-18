@@ -1,0 +1,4 @@
+struct Lista {
+	membriDellaStruct,
+	Lista *p_next
+} *head, *punt;
