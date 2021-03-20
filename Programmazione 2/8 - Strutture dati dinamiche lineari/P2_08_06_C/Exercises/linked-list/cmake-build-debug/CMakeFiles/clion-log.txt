@@ -1,0 +1,4 @@
+/home/jdsinniah/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/203.7148.70/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/home/jdsinniah/University/Programmazione 2/8 - Strutture dati dinamiche lineari/P2_08_06_C/Exercises/linked-list"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jdsinniah/University/Programmazione 2/8 - Strutture dati dinamiche lineari/P2_08_06_C/Exercises/linked-list/cmake-build-debug

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jdsinniah/University/Programmazione 2/8 - Strutture dati dinamiche lineari/P2_08_06_C/Exercises/linked-list/main.c
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+
