@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/pointer_test.dir/main.c.o  -o pointer_test 

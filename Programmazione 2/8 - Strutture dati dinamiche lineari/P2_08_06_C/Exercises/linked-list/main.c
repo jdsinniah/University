@@ -8,6 +8,11 @@ struct PERSONA {
     struct PERSONA *p_next;
 };
 
+struct linked_list {
+    void *data;
+    struct linked_list *next;
+};
+
 int main() {
     struct PERSONA el_1, el_2, el_3, *head, *punt;
 
