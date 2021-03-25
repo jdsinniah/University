@@ -1,0 +1,18 @@
+Il grafo è una struttura reticolare
+è costituito da nodi ed archi (che connettono due nodi).
+In un grafo classico due nodi possono avere al più un arco.
+
+Si parla di grafo orientato quando gli archi hanno un verso di percorrenza.
+Nei grafi orientati, due nodi possono avere due archi affinchè siano di verso opposto.
+
+Il grado di un nodo rappresenta il numero di archi che sono collegati ad essa.
+
+Secondo il teorema di Eulero "esiste un percorso (ciclo Euleriano) che parte da un nodo qualsiasi, attraversa una sola volta ciascun arco, termina nel vertice iniziale se, e solo se, il grafo è connesso e tutti i vertici hanno grado pari.
+
+Cammino da x a y = lista di veritci connessi da archi che va da x ad y
+lunghezza del cammino = numero degli archi attraversati
+
+cammino semplice = non passo 2 volte sullo stesso nodo
+cammino minimo = minimo numero di archi necessari per raggiungere un nodo y partendo da x
+
+

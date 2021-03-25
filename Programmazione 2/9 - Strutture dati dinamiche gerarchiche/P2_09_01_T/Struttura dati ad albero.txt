@@ -1,0 +1,6 @@
+Una struttura gerarchica ad albero è costituita da nodi.
+Tutti i nodi di questo tipo di struttura hanno un solo padre ad eccezione del nodo radice da cui comincia la struttura.
+I nodi foglie sono gli unici nodi che non hanno figli.
+Il grado g di un nodo è calcolato in base al totale di figli che ha.
+Nell'implementazione della visita di una struttura ad albero, possiamo strutturarlo linearmente tramite una coda, visitando un livello alla volta ed accodando la visita dei nodi figlio di ciascun nodo del livello corrente.
+

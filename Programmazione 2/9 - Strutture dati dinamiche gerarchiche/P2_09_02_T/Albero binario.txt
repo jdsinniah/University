@@ -1,0 +1,2 @@
+Gli alberi binari hanno al più due nodi figli.
+Una albero binario completo ha esattamente due figli per nodo eccetto per le foglie.

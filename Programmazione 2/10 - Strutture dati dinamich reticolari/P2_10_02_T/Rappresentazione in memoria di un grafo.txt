@@ -1,0 +1,3 @@
+Matrice di adiacenze: è una matrice contenete valori booleani, rappresentanti l'esistenza di un connessione tra due archi o meno.
+Le righe e le colonne rappresentano i nodi.
+Nella rappresentazione di un grado non orientato la matrice è simmetrica, mentre in quello non orientato non lo è, e per quest'ultimo caso, nella matrice si indicano i nodi raggiungibili da ciascun nodo.
