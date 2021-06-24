@@ -1,0 +1,7 @@
+Ricorsione indiretta	-> chiamata ricorsiva indiretta tramite un'altra procedura
+Ricrosione diretta	-> 
+	- lineare: Una sola chiamata ricorsiva nella procedura;
+	- binaria: Due chiamate ricorsive nella procedura;
+	- non lineare: solitamente, nella procedura, almeno 1 chiamata ricorsiva dentro un ciclo.
+
+
